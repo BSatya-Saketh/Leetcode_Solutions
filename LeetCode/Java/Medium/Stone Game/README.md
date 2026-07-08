@@ -1,6 +1,6 @@
 # 📝 Stone Game (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/stone-game/)
+🔗 [Problem Link](https://leetcode.com/problems/stone-game)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,7 +8,7 @@
 Array, Math, Dynamic Programming, Game Theory
 
 ### 🚀 Performance
-- **Runtime:** Successfully Evaluated
+- **Runtime:** N/A
 - **Memory:** N/A
 
 ---
