@@ -12,16 +12,21 @@ class Solution {
             if(nums[mid] == target)
                 return mid;
             
-            if(nums[left] <= nums[mid]){
-                if(nums[left] <= target && nums[mid] >= target)
-                    right = mid;
-                else left = mid+1;
-            }
-
-            else{
-                if(nums[mid] <= target && nums[right] >= target)
-                    left = mid;
-                else right = mid-1;
+            // Left half is sorted
+            if (nums[left] <= nums[mid]) {
+                if (nums[left] <= target && target < nums[mid]) {
+                    right = mid - 1; // Target is in the left half
+                } else {
+                    left = mid + 1;  // Target is in the right half
+                }
+            } 
+            // Right half is sorted
+            else {
+                if (nums[mid] < target && target <= nums[right]) {
+                    left = mid + 1;  // Target is in the right half
+                } else {
+                    right = mid - 1; // Target is in the left half
+                }
             }
         }
         return -1;
