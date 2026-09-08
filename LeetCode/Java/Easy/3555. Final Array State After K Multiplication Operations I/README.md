@@ -8,8 +8,8 @@
 Array, Math, Heap (Priority Queue), Simulation
 
 ### 🚀 Performance
-- **Runtime:** 1 ms
-- **Memory:** 46.6 MB
+- **Runtime:** 3 ms
+- **Memory:** 46.9 MB
 
 ---
 
