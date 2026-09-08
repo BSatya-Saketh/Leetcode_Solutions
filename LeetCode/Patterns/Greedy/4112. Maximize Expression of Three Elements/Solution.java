@@ -1,20 +1,24 @@
 class Solution {
     public int maximizeExpressionOfThree(int[] nums) {
-        int Largest = Integer.MIN_VALUE;
-        int SecondLargest = Integer.MIN_VALUE;
-        int Smallest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
+        int smallest = Integer.MAX_VALUE;
 
-        for(int i = 0; i<nums.length; i++){
-            if(nums[i] > Largest){
-                SecondLargest = Largest;
-                Largest = nums[i];
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] > largest) {
+                secondLargest = largest;
+                largest = nums[i];
             }
-            else if(nums[i] > SecondLargest)
-                SecondLargest = nums[i];
-            if(nums[i] < Smallest)
-                Smallest = nums[i];
+            else if (nums[i] > secondLargest) {
+                secondLargest = nums[i];
+            }
+
+            if (nums[i] < smallest) {
+                smallest = nums[i];
+            }
         }
 
-        return Largest + SecondLargest - Smallest;
+        return largest + secondLargest - smallest;
     }
 }
