@@ -3,7 +3,7 @@
 Track your progress on the Curated 100hrs DSA core interview preparation list.
 
 ## Progress
-- **Completed:** 2 / 238 (0.8%)
+- **Completed:** 3 / 238 (1.3%)
 
 ---
 
@@ -12,7 +12,7 @@ Track your progress on the Curated 100hrs DSA core interview preparation list.
 ### 📂 MODULE  2.1: DIGIT BASICS & NUMBER FORMA
 - [x] [Subtract the Product and Sum of Digits of an Integer](./Java/Easy/1406. Subtract the Product and Sum of Digits of an Integer/)
 - [x] [Count the Digits That Divide a Number](./Java/Easy/2608. Count the Digits That Divide a Number/)
-- [ ] Reverse Integer
+- [x] [Reverse Integer](./Java/Medium/7. Reverse Integer/)
 - [ ] Palindrome Number
 - [ ] Add Digits
 
